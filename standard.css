@@ -85,6 +85,10 @@ section{
   background-color: var(--colour2)
 }
 
+#game{
+  background-color: var(--colour3)
+}
+
 
 .intro-title{
   position: relative;
@@ -98,6 +102,11 @@ section{
 }
 
 img {
+  width: 95%;
+  height: auto;
+}
+
+video {
   width: 95%;
   height: auto;
 }
