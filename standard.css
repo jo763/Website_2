@@ -1,7 +1,7 @@
 :root {
-  --colour1: #17252A;
-  --colour2: #2B7A78;
-  --colour3: #3AAFA9;
+  --colour1: #66fcf1;
+  --colour2: #1f2833;
+  --colour3: #0B0C10;
   --colour4: #DEF2F1;
   --colour5: #FEFFFF;
   --colour6: #e9ccce;
@@ -41,17 +41,19 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: var(--colour4);
+    color: var(--colour5);
     text-align: center;
     background-color: #FBE8A6;
 }
 h1{
   font-size: 2rem;
+  color: var(--colour1);
 }
 h2{
   font-size: 1.75rem;
   text-align: center;
   padding: 20px;
+  color: var(--colour1);
 }
 #intro-title-2{
 padding: 0px;
@@ -149,7 +151,7 @@ iframe{
   align-items: center;
   min-width: 400px;
   background-color: var(--colour4);
-  color: var(--colour1)
+  color: var(--colour2)
 }
 
 
