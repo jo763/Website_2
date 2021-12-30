@@ -154,7 +154,9 @@ iframe{
   color: var(--colour2)
 }
 
-
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
 
 
 
@@ -194,4 +196,10 @@ table {
 
 ul.no-bullets {
     list-style-type: none;
+}
+
+@media (max-width: 1280px) {
+  .section-link-container {
+    display: none;
+  }
 }
